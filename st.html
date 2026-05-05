@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Portal</title>
+<link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <h1>Student Portal</h1>
+        <p>This is a simple registration and login interface I designed using only HTML and CSS to help students understand frontend UI structure.</p>
+    </div>
+
+    <div class="right">
+
+        <!-- CSS Toggle Inputs -->
+        <input type="radio" name="tab" id="login" checked>
+        <input type="radio" name="tab" id="register">
+
+        <div class="forms">
+
+            <!-- LOGIN FORM -->
+            <div class="form-box" id="loginForm">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+                <label for="register" class="toggle-label">Create new account</label>
+            </div>
+
+            <!-- REGISTER FORM -->
+            <div class="form-box" id="registerForm">
+                <h2>Register</h2>
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Register</button>
+                <label for="login" class="toggle-label">Already have an account? Login</label>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
