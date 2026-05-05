@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #6c63ff;
+    color: white;
+}
+
+.blog {
+    padding: 20px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.post:hover {
+    background: #ddd;
+}
+
+.post-view {
+    padding: 20px;
+    background: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.contact {
+    padding: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
