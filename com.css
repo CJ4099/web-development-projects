@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  background: purple;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+  background: #f4f4f4;
+}
+
+button {
+  padding: 10px 20px;
+  background: purple;
+  color: white;
+  border: none;
+}
+
+.services {
+  padding: 20px;
+}
+
+.card {
+  background: #ddd;
+  margin: 10px;
+  padding: 15px;
+}
