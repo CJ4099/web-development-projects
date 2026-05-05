@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4e54c8,#8f94fb);
+}
+
+.container{
+    width:800px;
+    max-width:95%;
+    background:white;
+    border-radius:15px;
+    display:flex;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.left{
+    flex:1;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.right{
+    flex:1;
+    padding:40px;
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#667eea;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#5a67d8;
+}
+
+.toggle-label{
+    text-align:center;
+    margin-top:10px;
+    color:#667eea;
+    cursor:pointer;
+    display:block;
+}
+
+/* Hide radio buttons */
+input[type="radio"]{
+    display:none;
+}
+
+.form-box{
+    display:none;
+}
+
+#login:checked ~ .forms #loginForm{
+    display:block;
+}
+
+#register:checked ~ .forms #registerForm{
+    display:block;
+}
+
+.forms{
+    position:relative;
+}
+
